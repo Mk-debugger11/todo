@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: 0;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+body.dark .app {
+  background-color: #2a2a2a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.theme-toggle {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input-group button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+body.dark .task-item {
+  background-color: #3a3a3a;
+  border-color: #555;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-actions button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-mode {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+}
+
+.edit-mode input {
+  flex: 1;
+  padding: 8px;
+}
+
+.edit-mode button {
+  padding: 8px;
+  cursor: pointer;
+}
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px; /* Rounded corners */
+}
+
+.input-group button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px; /* Rounded corners */
+}
+
+.edit-mode input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px; /* Rounded corners */
+}
+
+.edit-mode button {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 6px; /* Rounded corners */
+}
+.edit-btn{
+  color:white;
+}
+.delete-btn{
+  color:white;
+}
